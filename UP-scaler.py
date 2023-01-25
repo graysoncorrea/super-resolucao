@@ -12,6 +12,7 @@ hr_image = "C:\\Users\\grayson\\Desktop\\12.jpg"
 IMAGE_PATH = "original.png"
 
 #modelo treinado
+#model = hub.load("local")
 SAVED_MODEL_PATH = "https://tfhub.dev/captain-pool/esrgan-tf2/1"
 
 def preprocess_image(image_path):

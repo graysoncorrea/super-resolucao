@@ -1,2 +1,2 @@
 # super-resolu-ao
-melhora imagem usando ia
+melhora imagem usando esrgam 

@@ -41,6 +41,8 @@ def plot_image(image, title=""):
   plt.axis("off")
   plt.title(title)
   hr_image = preprocess_image(IMAGE_PATH)
+
+#local para saida  
 save_image(tf.squeeze(hr_image), filename="C:\\Users\\grayson\\Desktop\\Original Image")
 model = hub.load(SAVED_MODEL_PATH)
 start = time.time()
